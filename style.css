@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ /* html {
+    height: 100%;
+    width: 100%;
+  } */
+
+body {
+    background: url("./assets/bg.png") no-repeat center center/cover;
+    display: grid;
+}
+
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+    height: 80vh;
+    
+    
+}
+
+.navbar {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr 2fr;
+    width: 100%;
+    padding: 10px 10px;
+    align-items: center;
+    justify-items: center;
+    background-color: #1f1f1f;
+    color:#ffffff;
+    font-family: "Poppins";
+}
+
+.line {
+    height: 40px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.navbar div img {
+    margin-left: 20%;
+}
+
+.logo {
+    width: 100px;
+    
+}.logo:hover {
+    width: 100px;
+    opacity: 0.8;
+    
+}
+
+
+li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    opacity: 0.8;
+}
+
+.list {
+    
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    list-style-type: none;
+    
+   
+}
+
+.grow-list {
+    
+    justify-items: center;
+    align-items: center;
+    margin-right: 40%;
+}
+
+
+
+button {
+    background-color: #f714e4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-small {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.hero {
+    align-items: center;
+    justify-items: center;
+    
+    width: 800px;
+    margin: auto auto;
+    display: grid;
+    grid-template-rows: 4fr 1fr 4fr;
+    position: relative;
+    top: 100px;
+    gap: 40px;
+    
+}
+
+.hero-heading {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat";
+    align-self: end;
+}
+
+.hero-description {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat";
+    
+}
+
+.button-large {
+    padding: 10px 20px;
+    font-weight:600;
+    border-radius: 10px;
+    align-self: start;
+    border: none;
+    font-size: 25px;
+}
+
